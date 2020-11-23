@@ -1,9 +1,9 @@
-# izCoin-Tracker
+# izCoin
 
 ## Description
 
-IzCoin is a easy and reliable way to track the price of BitCoin in any currency the application retrieves live data from coin.api using JSON Parsing.
+IzCoin is a easy and reliable way to track the price of BitCoin in any currency the application retrieves live data from coin.api using JSON Parsing. This application is using the SF Symbols provided by apple in ios13 along with the new Dark Mode feature.
 
 ## Screenshot
 
-![](fruitness.screen.png)
+![](Screenshot/izcoin.screenshot.png)
