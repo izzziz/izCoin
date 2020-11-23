@@ -13,6 +13,9 @@
 		7151F2B324EBB783007C1710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7151F2B124EBB783007C1710 /* Main.storyboard */; };
 		7151F2B524EBB786007C1710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7151F2B424EBB786007C1710 /* Assets.xcassets */; };
 		7151F2B824EBB786007C1710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7151F2B624EBB786007C1710 /* LaunchScreen.storyboard */; };
+		715591B024EC775800F03B21 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715591AF24EC775800F03B21 /* CoinData.swift */; };
+		718FC69E24EBDCD10037D0B7 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718FC69D24EBDCD10037D0B7 /* CoinManager.swift */; };
+		71E16F9624FE69B600DA265D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E16F9524FE69B600DA265D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7151F2B424EBB786007C1710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7151F2B724EBB786007C1710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7151F2B924EBB786007C1710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715591AF24EC775800F03B21 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		718FC69D24EBDCD10037D0B7 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		71E16F9524FE69B600DA265D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				7151F2AB24EBB783007C1710 /* AppDelegate.swift */,
 				7151F2AD24EBB783007C1710 /* SceneDelegate.swift */,
-				7151F2AF24EBB783007C1710 /* ViewController.swift */,
-				7151F2B124EBB783007C1710 /* Main.storyboard */,
+				718FC69F24EBDCDC0037D0B7 /* Model */,
+				718FC69C24EBDC9C0037D0B7 /* View */,
+				718FC69B24EBDC8A0037D0B7 /* Controllers */,
 				7151F2B424EBB786007C1710 /* Assets.xcassets */,
 				7151F2B624EBB786007C1710 /* LaunchScreen.storyboard */,
 				7151F2B924EBB786007C1710 /* Info.plist */,
+				71E16F9524FE69B600DA265D /* Images.xcassets */,
 			);
 			path = "izCoin Tracker";
+			sourceTree = "<group>";
+		};
+		718FC69B24EBDC8A0037D0B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7151F2AF24EBB783007C1710 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		718FC69C24EBDC9C0037D0B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7151F2B124EBB783007C1710 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		718FC69F24EBDCDC0037D0B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				718FC69D24EBDCD10037D0B7 /* CoinManager.swift */,
+				715591AF24EC775800F03B21 /* CoinData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +127,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Izzat Jabali";
 				TargetAttributes = {
 					7151F2A724EBB783007C1710 = {
@@ -126,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7151F2B824EBB786007C1710 /* LaunchScreen.storyboard in Resources */,
+				71E16F9624FE69B600DA265D /* Images.xcassets in Resources */,
 				7151F2B524EBB786007C1710 /* Assets.xcassets in Resources */,
 				7151F2B324EBB783007C1710 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718FC69E24EBDCD10037D0B7 /* CoinManager.swift in Sources */,
 				7151F2B024EBB783007C1710 /* ViewController.swift in Sources */,
+				715591B024EC775800F03B21 /* CoinData.swift in Sources */,
 				7151F2AC24EBB783007C1710 /* AppDelegate.swift in Sources */,
 				7151F2AE24EBB783007C1710 /* SceneDelegate.swift in Sources */,
 			);
@@ -192,6 +228,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +289,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -284,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GU6W6JBYVD;
 				INFOPLIST_FILE = "izCoin Tracker/Info.plist";
@@ -293,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izzatjabali.izCoin-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GU6W6JBYVD;
 				INFOPLIST_FILE = "izCoin Tracker/Info.plist";
@@ -311,6 +352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.izzatjabali.izCoin-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
