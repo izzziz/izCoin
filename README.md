@@ -1,6 +1,6 @@
 # izCoin
 Application Icon.
-![App icon](appstore.png)
+![App icon](SC/izCoin.png)
 
 
 ## Description
