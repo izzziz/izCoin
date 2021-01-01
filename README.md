@@ -1,5 +1,7 @@
 # izCoin
-Application Icon.
+App Icon
+
+
 ![App icon](SC/izCoin.png)
 
 
