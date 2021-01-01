@@ -17,5 +17,3 @@ IzCoin is a easy and reliable way to track the price of BitCoin in all the popul
 
 ## Scan QR-Code 
 ![](SC/qr-code.jpg)
-
-To find my app on the Apple App Store
