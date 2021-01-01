@@ -11,7 +11,7 @@ IzCoin is a easy and reliable way to track the price of BitCoin in all the popul
 
 ![](Screenshot/izcoin.screenshot.png)
 
-![](sc/)
+![](SC/121.png)
 
 
 ## Demo
