@@ -2,7 +2,7 @@
 ## QR Code | App Icon 
 #### Scan QR-Code to head to the App store.
 
-![](SC/qr-code.jpg) || ![App icon](SC/izCoin.png)              
+![](SC/qr-code.jpg) | ![App icon](SC/izCoin.png)              
 
 
 ## Overview
