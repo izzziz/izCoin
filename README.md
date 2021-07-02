@@ -1,7 +1,8 @@
 # izCoin
-App Icon
+## QR Code | App Icon 
+#### Scan QR-Code to head to the App store.
 
-![App icon](SC/izCoin.png)
+![](SC/qr-code.jpg) || ![App icon](SC/izCoin.png)              
 
 
 ## Overview
@@ -18,5 +19,5 @@ IzCoin is a easy and reliable way to track the price of BitCoin in all the popul
 ## Demo
 ![](gif-2.gif)
 
-## Scan QR-Code 
-![](SC/qr-code.jpg)
+<!-- ## Scan QR-Code 
+![](SC/qr-code.jpg) -->
